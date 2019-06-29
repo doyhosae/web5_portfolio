@@ -1,42 +1,52 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Portfolio_Cheon Yeongmin</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-    <script src="https://kit.fontawesome.com/939c7604f0.js"></script>
-    <script type="text/javascript" src="js/custom.js"></script>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.js"></script>
+    <script  src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"
+  integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E="
+  crossorigin="anonymous"></script>
+    <script src="js/custom.js"></script>
     <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
+    <title>천영민 포트폴리오</title>
+</head>
+<body>
 
-    <div class="wrap">
+    <!-- 주메뉴 -->
+    <ul id="menu">
+        <li class="on"><a href="#">인적사항</a></li>
+        <li><a href="#">컴퓨터<br/>활용능력</a></li>
+        <li><a href="#">자격증</a></li>
+    </ul>
 
-      <header>
-        <h1>BIkiBIki</h1>
-      </header>
+    <!-- 전체페이지 -->
+    <div id="wrap">
+        <!-- 첫 번째 박스 -->
+        <section>
+            <article>
+                <p>인적사항</p>
+                <img src="./img/im.png">
+            </article>
+        </section>
 
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Man</a></li>
-          <li><a href="#">Girl</a></li>
-        </ul>
-      </nav>
+        <!-- 두 번째 박스 -->
+        <section>
+            <article>
+                <p>컴퓨터활용능력</p>
+                <img src="./img/computer.png">
+            </article>
+        </section>
 
-      <section>
-        <div>
-          <h1><img src="img/dog.jpg"/></h1>
-          <!-- <img src="img/유니클로_Display.jpg">
-          <img src="img/유니클로_Checkpoint.jpg">
-          <img src="img/7.jpg">
-          <img src="img/8.jpg">
-          <img src="img/9.jpg">
-          <img src="img/10.jpg">
-          <img src="img/11.jpg"> -->
-        </div>
-      </section>
+        <!-- 세 번째 박스 -->
+        <section>
+            <article>
+                <p>자격증</p>
+                <img src="./img/certificate.png">
+            </article>
+        </section>
     </div>
-
-  </body>
+</body>
 </html>
